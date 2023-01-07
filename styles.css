@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  color: #43291f;
+}
+
+header {
+  margin-left: 40px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  background-color: #fefae0;
+
+}
+
+.container {
+  display: flex;
+  /* or inline-flex */
+
+  /*align-items: center;*/
+  justify-content: flex-end;
+  /* justify-content: flex-end;*/
+  width: 70%;
+  margin: auto;
+  margin-top: 1rem;
+  justify-content: flex-end; 
+  align-items: flex-end;
+  align-self: end;
+  align-content: end;
+}
+
+.titulo-textarea {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.titulo-textarea.titulo-encriptador {
+  font-size: 2em;
+  margin-bottom: 6px;
+}
+
+#text-input-body {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  
+}
+
+#processed-text-body {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+}
+
+.boton {
+  margin-top: 10px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  flex-grow: 1;
+}
+
+.boton:hover {
+  background-color: rgba(37, 28, 14, 0.267);
+}
+
+.boton:active {
+  font-weight: bold;
+}
+
+.contenedor-botones {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.textarea-procesado {
+  border: none;
+  box-shadow: 0 0 8px 4px #b6957f;
+  background-color: #fcf2e6;
+}
+
+.textarea-raw {
+  border: 1px solid #b9b578;
+}
+
+textarea {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none !important;
+}

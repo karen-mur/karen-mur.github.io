@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Encriptador</title>
+  <link rel="icon" href="images/aluraIcon.png">
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <img src="images/alura.png" alt="alura icon" />
+  </header>
+  <main>
+    <section class="container">
+      <section id="text-input-body">
+        <h1 class="titulo-textarea titulo-encriptador">Encriptador</h1>
+        <h2 class="titulo-textarea">Ingrese el texto aquí</h2>
+        <textarea class="textarea-raw" name="textoRaw" id="textoRaw" cols="30" rows="10"></textarea>
+        <section class="contenedor-botones">
+          <button class="boton" onclick="codificar();">Encriptar</button>
+          <button class="boton" onclick="decodificar();">Desencriptar</button>
+        </section>
+      </section>
+
+      <section id="processed-text-body">
+        <textarea class="textarea-procesado" placeholder="Texto encriptado" name="textoProcesado" id="textoProcesado"
+          cols="30" rows="17" readonly></textarea>
+        <button class="boton" onclick="copiar();">Copiar</button>
+      </section>
+    </section>
+    </div>
+  </main>
+
+  <footer></footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
